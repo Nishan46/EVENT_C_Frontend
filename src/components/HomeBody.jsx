@@ -12,7 +12,7 @@ function HomeBody() {
             <p>Lorem Ipsum is simply dummy text ofthe printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <h1 className='mt-[100px] sm:ml-10 ml-5 capitalize text-3xl underline'>What's we have? Let's find out !</h1>
-        <div className='w-full flex flex-col justify-center h-fit bg-slate-50 border-b-slate-100 rounded-sm border-b shadow-xl mt-20'>
+        <div className='w-full flex flex-col justify-center h-fit bg-slate-50 border-b-slate-100 rounded-sm border-b shadow-md mt-20'>
             <h2 className='py-5 ml-5 text-xl'>Our Services ,</h2>
             <div className='sm:flex-row flex flex-col sm:items-start sm:justify-between '>
               <ul className='ml-10 list-[square]'>
@@ -36,7 +36,7 @@ function HomeBody() {
               <ul className='ml-10 my-10 list-[square]'>
                 <li>Other Services ,</li>
                   <ul className='ml-10 mx-5 sm:mx-0 list-disc'>
-                    <li>Decorations.</li>
+                    <li>Party Decorations.</li>
                     <li>Groom Dressing.</li>
                     <li>Bright Dressing.</li>
                     <li>Wedding Cakes & Birthday cakes.</li>

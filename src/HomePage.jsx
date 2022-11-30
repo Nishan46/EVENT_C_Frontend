@@ -4,7 +4,7 @@ import HomeBody from './components/HomeBody'
 
 function HomePage() {
   return (
-    <div className='w-full h-fit'>
+    <div>
         <Header/>
         <HomeBody/>
     </div>
