@@ -11,7 +11,7 @@ function Header() {
     const [xs, setXs] = useState(0);
     const [isAuto, setIsAuto] = useState(true);
     async function doThis(){
-        await sleep(5)
+        await sleep(10)
         HandleSlide('right')
     }
     useEffect(() => {
@@ -80,7 +80,7 @@ function Header() {
                     <div className='absolute text-white uppercase top-0 flex items-center h-[100px] w-[100vw] z-30'>
                         <h1 className=' flex-[0.7] text-sm sm:text-xl  ml-4'>Deside your own celebration !</h1>
                         <div className=' flex flex-[0.3] justify-end items-center space-x-5 mr-5  text-sm sm:text-xl'>
-                            <a href='###'>About Us.</a>
+                            <a href='#AboutUs'>About Us.</a>
                         </div>
                     </div>
                 </div>
